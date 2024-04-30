@@ -339,6 +339,7 @@ DOI = {10.3390/fi15040125}
   year={2023},
   volume={},
   number={},
+  url={https://openaccess.thecvf.com/content/CVPR2023W/OmniCV/papers/Gallagher_A_System_for_Dense_Monocular_Mapping_With_a_Fisheye_Camera_CVPRW_2023_paper.pdf},
   pages={6479-6487},
   keywords={Measurement;Deformable models;Surface reconstruction;Simultaneous localization and mapping;Deformation;Cameras;Trajectory},
   doi={10.1109/CVPRW59228.2023.00689}}
@@ -372,17 +373,28 @@ DOI = {10.3390/fi15040125}
   pages={420-429},
   keywords={Semantics;Games;Evolutionary computation;Statistics;Sociology;Tuning;Genetic programming;  $Carcassonne$  ;genetic programming (GP);Monte Carlo tree search (MCTS);semantics},
   doi={10.1109/TG.2022.3203232}}
-@INPROCEEDINGS{10022829,
-  author={Kotey, Samantha and Dahyot, Rozenn and Harte, Naomi},
-  booktitle={2022 IEEE Spoken Language Technology Workshop (SLT)}, 
-  title={Fine Grained Spoken Document Summarization Through Text Segmentation}, 
-  year={2023},
-  volume={},
-  number={},
-  pages={647-654},
-  keywords={Filtering;Conferences;Training data;Oral communication;Linguistics;Transformers;Readability metrics;spoken document summarization;text segmentation;long sequence transformers;readability formulas;podcast summarization},
-  doi={10.1109/SLT54892.2023.10022829}}
-@article{Inkarbekov2023,
+@INPROCEEDINGS{KoteySLT2023,
+author = {Kotey, Samantha and Dahyot, Rozenn and Harte, Naomi},
+booktitle = {2022 IEEE Spoken Language Technology Workshop (SLT)}, 
+title = {Fine Grained Spoken Document Summarization Through Text Segmentation}, 
+year = {2023},
+volume = {},
+number = {},
+pages = {647-654},
+abstract = {Podcast transcripts are long spoken documents of conversational dialogue. 
+Challenging to summarize, podcasts cover a diverse range of topics, vary in length, and 
+have uniquely different linguistic styles. Previous studies in podcast summarization have generated short,
+concise dialogue summaries. In contrast, we propose a method to generate long fine-grained summaries, which describe details of 
+sub-topic narratives. Leveraging a readability formula, we curate a data subset to train a long sequence transformer for abstractive summarization.
+Through text segmentation, we filter the evaluation data and exclude specific segments of text. 
+We apply the model to segmented data, producing different types of fine grained summaries. We show that appropriate filtering 
+creates comparable results on ROUGE and serves as an alternative method to truncation. Experiments show our model outperforms 
+previous studies on the Spotify podcast dataset when tasked with generating longer sequences of text.},
+keywords = {},
+doi = {10.1109/SLT54892.2023.10022829},
+url = {https://roznn.github.io/PDF/STL2022Kotey.pdf},
+ISSN = {},
+month = {Jan},}@article{Inkarbekov2023,
 title = {Visualization of AI Systems in Virtual Reality: A Comprehensive Review},
 journal = {International Journal of Advanced Computer Science and Applications},
 doi = {10.14569/IJACSA.2023.0140805},
@@ -407,13 +419,29 @@ url  =  {https://zenodo.org/records/8205096/files/Improving_GMM_registration_wit
 doi  =  {10.5281/zenodo.8205096},
 keywords = {registration, GMM, class encoding},
 note  =  {https://github.com/solmak97/GMMReg_Extension}
-}@inproceedings{kotey23_interspeech,
-  author={Samantha Kotey and Rozenn Dahyot and Naomi Harte},
-  title={{Query Based Acoustic Summarization for Podcasts}},
-  year=2023,
-  booktitle={Proc. INTERSPEECH 2023},
-  pages={1483--1487},
-  doi={10.21437/Interspeech.2023-864}
+}@inproceedings{KoteyInterSpeech2023,
+author  =  {Samantha Kotey and Rozenn Dahyot and Naomi Harte},
+title  =  {Query Based Acoustic Summarization for Podcasts}, 
+booktitle = {Proceedings INTERSPEECH 2023},
+year  =  {2023},
+volume  =  {},
+number  =  {},
+pages  =  {1483--1487},
+abstract  =  {Podcasts are a rich storytelling medium of long diverse conversations. 
+Typically, listeners preview an episode through an audio clip, before deciding to consume the content. 
+An automatic system that produces promotional clips, by supporting acoustic queries would greatly benefit podcasters. 
+Previous text based methods do not use the acoustic signal directly or incorporate acoustic defined queries.
+Therefore, we propose a query based summarization approach, to produce audio clip summaries from podcast data. 
+Leveraging unsupervised clustering methods, we apply our framework to the Spotify podcasts dataset.
+Audio signals are transformed into acoustic word embeddings, along with a pre-selected candidate query.
+We initiate the cluster centroids with the query vector and obtain the final snippets by computing a global and local similarity score. 
+Additionally, we apply our framework to the AMI meeting dataset and demonstrate how audio can successfully be utilized to perform summarization.},
+keywords  =  {query-based summarization, unsupervised speech summarization, clustering, acoustic word embeddings},
+doi  =  {10.21437/Interspeech.2023-864},
+url  =  {https://www.isca-archive.org/interspeech_2023/kotey23_interspeech.pdf},
+ISSN  =  {},
+address  =  {Dublin, Ireland},
+month  =  {August}
 }@Article{isprs-archives-XLVIII-1-W1-2023-139-2023,
 AUTHOR = {Essel, B. and Bolger, M. and McDonald, J. and Cahalane, C.},
 TITLE = {DEVELOPING A THEORETICAL ASSESSMENT METHOD FOR AN ASSISTED DIRECT GEOREFERENCING APPROACH TO IMPROVE ACCURACY WHEN MAPPING OVER WATER: THE CONCEPT, POTENTIAL AND LIMITATIONS},
@@ -421,7 +449,7 @@ JOURNAL = {The International Archives of the Photogrammetry, Remote Sensing and 
 VOLUME = {XLVIII-1/W1-2023},
 YEAR = {2023},
 PAGES = {139--144},
-URL = {https://isprs-archives.copernicus.org/articles/XLVIII-1-W1-2023/139/2023/},
+url={https://isprs-archives.copernicus.org/articles/XLVIII-1-W1-2023/139/2023/isprs-archives-XLVIII-1-W1-2023-139-2023.pdf},
 DOI = {10.5194/isprs-archives-XLVIII-1-W1-2023-139-2023}
 }@techreport{lambert2023repositioning,
       title={Repositioning Tiered HotSpot Execution Performance Relative to the Interpreter}, 
@@ -429,7 +457,17 @@ DOI = {10.5194/isprs-archives-XLVIII-1-W1-2023-139-2023}
       year={2023},
       eprint={2304.06460},
       doi={10.48550/arXiv.2304.06460},
-      abstract={Although the advantages of just-in-time compilation over traditional interpretive execution are widely recognised, there needs to be more current research investigating and repositioning the performance differences between these two execution models relative to contemporary workloads. Specifically, there is a need to examine the performance differences between Java Runtime Environment (JRE) Java Virtual Machine (JVM) tiered execution and JRE JVM interpretive execution relative to modern multicore architectures and modern concurrent and parallel benchmark workloads. This article aims to fill this research gap by presenting the results of a study that compares the performance of these two execution models under load from the Renaissance Benchmark Suite. This research is relevant to anyone interested in understanding the performance differences between just-in-time compiled code and interpretive execution. It provides a contemporary assessment of the interpretive JVM core, the entry and starting point for bytecode execution, relative to just-in-time tiered execution. The study considers factors such as the JRE version, the GNU GCC version used in the JRE build toolchain, and the garbage collector algorithm specified at runtime, and their impact on the performance difference envelope between interpretive and tiered execution. Our findings indicate that tiered execution is considerably more efficient than interpretive execution, and the performance gap has increased, ranging from 4 to 37 times more efficient. On average, tiered execution is approximately 15 times more efficient than interpretive execution. Additionally, the performance differences between interpretive and tiered execution are influenced by workload category, with narrower performance differences observed for web-based workloads and more significant differences for Functional and Scala-type workloads.},
+      url={https://arxiv.org/pdf/2304.06460.pdf},
+      abstract={Although the advantages of just-in-time compilation over traditional 
+      interpretive execution are widely recognised, there needs to be more current research 
+      investigating and repositioning the performance differences between these two execution models 
+      relative to contemporary workloads. Specifically, there is a need to examine the performance
+       differences between Java Runtime Environment (JRE) Java Virtual Machine (JVM) tiered execution 
+       and JRE JVM interpretive execution relative to modern multicore architectures and modern concurrent 
+       and parallel benchmark workloads. This article aims to fill this research gap by presenting 
+       the results of a study that compares the performance of these two execution models under load 
+       from the Renaissance Benchmark Suite. This research is relevant to anyone interested in understanding
+        the performance differences between just-in-time compiled code and interpretive execution. It provides a contemporary assessment of the interpretive JVM core, the entry and starting point for bytecode execution, relative to just-in-time tiered execution. The study considers factors such as the JRE version, the GNU GCC version used in the JRE build toolchain, and the garbage collector algorithm specified at runtime, and their impact on the performance difference envelope between interpretive and tiered execution. Our findings indicate that tiered execution is considerably more efficient than interpretive execution, and the performance gap has increased, ranging from 4 to 37 times more efficient. On average, tiered execution is approximately 15 times more efficient than interpretive execution. Additionally, the performance differences between interpretive and tiered execution are influenced by workload category, with narrower performance differences observed for web-based workloads and more significant differences for Functional and Scala-type workloads.},
 }@patent{Patent2023,
   author = "Chao-jung Liu and Matej Ulicny and Rozenn Dahyot",
   title = "CONTEXT AWARE OBJECT GEOTAGGING",
