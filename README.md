@@ -1,2 +1,3 @@
 # News
-MU CS News and Blog
+
+For posting MU CS News.
