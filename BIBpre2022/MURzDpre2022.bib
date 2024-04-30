@@ -1,0 +1,149 @@
+@article{ULICNY2022108707, 
+author =  {Matej Ulicny and Vladimir A. Krylov and Rozenn Dahyot}, 
+title =  {Harmonic Convolutional Networks based on Discrete Cosine Transform}, 
+journal = {Pattern Recognition},
+abstract = {Convolutional neural networks (CNNs) learn filters in order to capture local correlation patterns in feature space. We propose to learn these filters as combinations of preset spectral filters defined by the Discrete Cosine Transform (DCT). Our proposed DCT-based harmonic blocks replace conventional convolutional layers to produce partially or fully harmonic versions of new or existing CNN architectures. Using DCT energy compaction properties, we demonstrate how the harmonic networks can be efficiently compressed by truncating high-frequency information in harmonic blocks thanks to the redundancies in the spectral domain. We report extensive experimental validation demonstrating benefits of the introduction of harmonic blocks into state-of-the-art CNN models in image classification, object detection and semantic segmentation applications.},
+volume =  {129},
+pages = {1-12},
+year =  {2022}, 
+issn  =  {0031-3203},
+url =  {https://arxiv.org/pdf/2001.06570.pdf},
+doi = {10.1016/j.patcog.2022.108707},
+note = {arXiv.2001.06570  Github: https://github.com/matej-ulicny/harmonic-networks},
+}
+
+@inproceedings{ChopinICPRAI2022a,
+title = {Improving semantic segmentation with graph-based structural knowledge},
+author = {J. Chopin and J.-B. Fasquel and H. Mouchere and R. Dahyot and I. Bloch},
+abstract = {Deep learning based pipelines for semantic segmentation often
+ignore structural information available on annotated images used for
+training. We propose a novel post-processing module enforcing structural
+knowledge about the objects of interest to improve segmentation
+results provided by deep learning. This module corresponds to a “manyto-
+one-or-none” inexact graph matching approach, and is formulated as
+a quadratic assignment problem. Using two standard measures for evaluation,
+we show experimentally that our pipeline for segmentation of
+3D MRI data of the brain outperforms the baseline CNN (U-Net) used
+alone. In addition, our approach is shown to be resilient to small training
+datasets that often limit the performance of deep learning.},
+doi = {10.1007/978-3-031-09037-0_15},
+url =  {https://hal.science/hal-03633029/document}, 
+note = {hal-03633029},
+booktitle = {Pattern Recognition and Artificial Intelligence},
+year = {2022},
+publisher = {Springer International Publishing},
+editor = {El Yacoubi, Moun{\^i}m
+and Granger, Eric
+and Yuen, Pong Chi
+and Pal, Umapada
+and Vincent, Nicole},
+month = {June},
+HAL_ID  =  {hal-03633029},
+address = {Paris, France},
+isbn = {978-3-031-09037-0},
+pages = {173--184},
+}
+@inproceedings{ChopinICPRAI2022b,
+title = {QAP Optimisation with Reinforcement Learning for Faster Graph Matching in Sequential Semantic Image Analysis},
+author = {J. Chopin and J.-B. Fasquel and H. Mouchere and R. Dahyot and I. Bloch},
+abstract = {The paper addresses the fundamental task of semantic image
+analysis by exploiting structural information (spatial relationships
+between image regions). We propose to perform such semantic image
+analysis by combining a deep neural network (CNN) with graph matching
+where graphs encode efficiently structural information related to regions
+segmented by the CNN. Our novel approach solves the quadratic assignment
+problem (QAP) sequentially for matching graphs. The optimal
+sequence for graph matching is conveniently defined using reinforcementlearning
+(RL) based on the region membership probabilities produced by
+the CNN and their structural relationships. Our RL based strategy for
+solving QAP sequentially allows us to significantly reduce the combinatioral
+complexity for graph matching. Preliminary experiments are performed
+on both a synthetic dataset and a public dataset dedicated to the
+semantic segmentation of face images. Results show that the proposed
+RL-based ordering dramatically outperforms random ordering, and that
+our strategy is about 386 times faster than a global QAP-based approach,
+while preserving similar segmentation accuracy.},
+publisher = {Springer International Publishing},
+editor = {El Yacoubi, Moun{\^i}m
+and Granger, Eric
+and Yuen, Pong Chi
+and Pal, Umapada
+and Vincent, Nicole},
+isbn = {978-3-031-09037-0},
+doi = {10.1007/978-3-031-09037-0_5},
+url =  {https://hal.science/hal-03633036/document}, 
+note = {hal-03633036},
+booktitle = {Pattern Recognition and Artificial Intelligence},
+year = {2022},
+month = {June},
+pages = {47--58},
+address = {Paris, France},
+}
+@inproceedings{karaali2022drvnet,
+title = {DR-VNet: Retinal Vessel Segmentation via Dense Residual UNet}, 
+author = {Ali Karaali and Rozenn Dahyot and Donal J. Sexton},
+year = {2022},
+booktitle = {Pattern Recognition and Artificial Intelligence},
+doi = {10.1007/978-3-031-09037-0_17},
+note = {Github https://github.com/alikaraali/DR-VNet, ArXivDOI:10.48550/arXiv.2111.04739},
+url =  {https://arxiv.org/pdf/2111.04739.pdf}, 
+abstract = {Accurate retinal vessel segmentation is an important task for many computer-aided diagnosis systems. Yet, it is still a challenging problem due to the complex vessel structures of an eye. Numerous vessel segmentation methods have been proposed recently, however more research is needed to deal with poor segmentation of thin and tiny vessels. To address this, we propose a new deep learning pipeline combining the efficiency of residual dense net blocks and, residual squeeze and excitation blocks. We validate experimentally our approach on three datasets and show that our pipeline outperforms current state of the art techniques on the sensitivity metric relevant to assess capture of small vessels.},
+publisher = {Springer International Publishing},
+editor = {El Yacoubi, Moun{\^i}m
+and Granger, Eric
+and Yuen, Pong Chi
+and Pal, Umapada
+and Vincent, Nicole},
+isbn = {978-3-031-09037-0},
+volume =  {abs/2111.04739},
+month = {June},
+address = {Paris, France},
+archivePrefix = {arXiv},
+primaryClass = {eess.IV}
+}
+@inproceedings{ChaoImvip2021,
+author =  {C.-J. Liu and Matej Ulicny and Michael Manzke and  Rozenn Dahyot}, 
+title =  {Context Aware Object Geotagging},
+booktitle =  {Irish Machine Vision and Image Processing (IMVIP 2021)},
+volume =  {},
+year =  {2021},
+abstract = {We propose an approach for geolocating assets from street view imagery 
+by improving the quality of the metadata associated with the images using 
+Structure from Motion, and by using contextual geographic information extracted 
+from OpenStreetMap. Our pipeline is validated experimentally against the state of
+the art approaches for geotagging traffic lights.},
+url =  {https://arxiv.org/pdf/2108.06302.pdf},
+doi = {10.48550/arXiv.2108.06302},
+note = {},
+archivePrefix =  {arXiv}, 
+eprint =  {},
+timestamp =  {},
+biburl =  {},
+bibsource =  {}
+}
+@article{McDonnell2021,
+title =  {Model for predicting perception of facial action unit activation using virtual humans},
+journal =  {Computers \& Graphics }, 
+doi  =  {10.1016/j.cag.2021.07.022},
+volume =  {100}, 
+pages =  {81-92}, 
+year =  {2021}, 
+note =  {Winner 2022 Graphics Replicability Stamp Initiative (GRSI) best paper award; Github: https://github.com/Roznn/facial-blendshapes}, 
+issn =  {0097-8493},
+url =  {https://roznn.github.io/facial-blendshapes/CAG2021.pdf}, 
+author =  {Rachel McDonnell and Katja Zibrek and Emma Carrigan and Rozenn Dahyot}, 
+keywords =  {facial action unit, perception, virtual character},
+abstract =  {Blendshape facial rigs are used extensively in the industry for facial animation of
+virtual humans. However, storing and manipulating large numbers of facial meshes
+(blendshapes) is costly in terms of memory and computation for gaming applications.
+Blendshape rigs are comprised of sets of semantically-meaningful expressions, which
+govern how expressive the character will be, often based on Action Units from the Facial
+Action Coding System (FACS). However, the relative perceptual importance of blendshapes has not yet been investigated. Research in Psychology and Neuroscience has
+shown that our brains process faces differently than other objects so we postulate that
+the perception of facial expressions will be feature-dependent rather than based purely
+on the amount of movement required to make the expression. Therefore, we believe that
+perception of blendshape visibility will not be reliably predicted by numerical calculations of the difference between the expression and the neutral mesh. In this paper, we
+explore the noticeability of blendshapes under different activation levels, and present
+new perceptually-based models to predict perceptual importance of blendshapes. The
+models predict visibility based on commonly-used geometry and image-based metrics.}
+}
