@@ -56,6 +56,24 @@ abstract="This ``journal-first'' paper summarises a publication by the same auth
 isbn="978-3-031-33163-3"
 }
 
+@Inbook{Palma2023,
+author="Palma, Gabriel R.
+and Hackett, Conor P.
+and Markham, Charles",
+editor="A. Moral, Rafael
+and Godoy, Wesley A.C.",
+title="Machine Vision Applied to Entomology",
+bookTitle="Modelling Insect Populations in Agricultural Landscapes",
+year="2023",
+publisher="Springer International Publishing",
+address="Cham",
+pages="149--184",
+abstract="Machine vision has produced many helpful image processing techniques in several fields, such as object detection, classification, and segmentation. Machine vision is an interdisciplinary field that combines methods from computer vision and machine learning, mainly deep learning to solve issues. Common issues, such as classification and localisation, are typical examples that combine these research fields. These techniques have many applications in entomology. In the entomological context, classification methods identify insect species or features of an insect, and localisation methods return their position within a scene. The available techniques for localisation and classification benefit the entomological community by assisting specialists. This chapter introduces the application of machine vision methods to identify and localise insects and the features of their anatomy. The machine vision pipeline, image descriptors, and fundamental methods, such as thresholding, blob, and contour detection, are presented. Deep Learning (DL) methods are applied for insect classification, focusing on Deep Neural Networks and Convolutional Neural Networks (CNNs), including concepts of transfer learning applied to insect classification. A dataset of medically and forensically important flies, Diptera, is used to illustrate these methods. CNN-based methods are described for insect localisation, and semantic segmentation using the U-Net architecture trained on the dataset of flies is presented. The dimensional reduction method PaCMAP is applied to visualise the feature extracted from the fly datasets. The Grad-CAM method is used on the flies datasets to assist insect object localisation. Finally, different platforms of computing are presented and compared under three different metrics of performance, power consumption, and operating temperature.",
+isbn="978-3-031-43098-5",
+doi="10.1007/978-3-031-43098-5_9",
+url="https://doi.org/10.1007/978-3-031-43098-5_9"
+}
+
 @InProceedings{10.1007/978-3-031-48038-6_21,
 author="Yaseen, Azeema
 and Chakraborty, Sutirtha
@@ -81,6 +99,19 @@ abstract="Third-wave HCI broadens technology from traditional settings to everyd
 isbn="978-3-031-48038-6"
 }
 
+@article{
+author={Idrees, Abdul Rahman and Kraft, Robin and Winter, Michael and Küchler, Ann-Marie and Baumeister, Harald and Reichert, Manfred and Pryss, Rüdiger},
+title={Exploring the usability of an internet-based intervention and its providing eHealth 
+platform in an eye-tracking study},
+journal={Journal of Ambient Intelligence and Humanized Computing},
+volume={ 14},
+number={7},
+pages={9621–9636},
+year={2023}, 
+url={https://doi.org/10.1007/s12652-023-04635-4},
+doi={10.1007/s12652-023-04635-4},
+abstract={The proliferation of online eHealth has made it much easier for users to access healthcare services and interventions from the comfort of their own homes. This study looks at how well one such platform—eSano—performs in terms of user experience when delivering mindfulness interventions. In order to assess usability and user experience, several tools such as eye-tracking technology, think-aloud sessions, a system usability scale questionnaire, an application questionnaire, and post-experiment interviews were employed. Participants were evaluated while they accessed the first module of the mindfulness intervention provided by eSano to measure their interaction with the app, and their level of engagement, and to obtain feedback on both the intervention and its overall usability. The results revealed that although users generally rated their experience with the app positively in terms of overall satisfaction, according to data collected through the system usability scale questionnaire, participants rated the first module of the mindfulness intervention as below average. Additionally, eye-tracking data showed that some users skipped long text blocks in favor of answering questions quickly while others spent more than half their time reading them. Henceforth, recommendations were put forward to improve both the usability and persuasiveness of the app—such as incorporating shorter text blocks and more engaging interactive elements—in order to raise adherence rates. Overall findings from this study provide valuable insights into how users interact with the eSano's participant app which can be used as guidelines for the future development of more effective and user-friendly platforms. Moreover, considering these potential improvements will help foster more positive experiences that promote regular engagement with these types of apps; taking into account emotional states and needs that vary across different age groups and abilities.},
+}
 %% lmcs:10282
 %% https://lmcs.episciences.org/10282
 %% 
@@ -129,6 +160,28 @@ address={Glasgow, Scotland},
   month        = {April},
   doi          = {10.5281/zenodo.7825100},
   url          = {https://doi.org/10.5281/zenodo.7825100}
+}@inproceedings{cribbin_2023_8217852,
+  title        = {Development of a Classification-based Eye Gaze 
+                   estimation technique using an Integrated Laptop
+                   Camera: two models are better than one},
+  year         = {2023},
+  publisher    = {Zenodo},
+  month        = {August},
+  abstract={While there are many purely software-based solutions available for live head pose tracking, the same is not true for gaze
+estimation which is usually done using specialised hardware; typically, eye-trackers that use infrared light sources and
+special camera. The challenge when using vision-based Machine Learning methods to estimate gaze from an image of a
+user is that the features of a user's eyes that vary with gaze position are small and difficult to track. This paper describes
+a classification-based Convolutional Neural Network (CNN) system that can, from images of a user's face, estimate where
+on a screen they are looking in real time. Labelled images of an individual looking at specified regions of a screen were
+collected, and these images were used to train a Deep Learning model. The final model trained was found to be accurate
+enough to correctly guess which section of the screen (3x3 grid) the user is looking in over 99% of the time. The current
+system requires strict input conditions on head orientation, a limitation on the system. The integration of head pose
+estimation and methods of improving resolution are discussed. The approach uses two classifiers, one for horizontal gaze
+(3 regions) and another for vertical gaze (3 regions) combined to estimate gaze location. This approach was found to be
+more effective than a single classifier for nine separate regions. Using both eyes, excluding the nose region and other
+facial features of the input images also improved performance.},
+  doi          = {10.5281/zenodo.8217852},
+  url          = {https://doi.org/10.5281/zenodo.8217852}
 }@inproceedings{10.1145/3583133.3596437,
 author = {Stapleton, Fergal and Galvan, Edgar},
 title = {Initial Steps Towards Tackling High-dimensional Surrogate Modeling for Neuroevolution Using Kriging Partial Least Squares},
@@ -246,7 +299,18 @@ number={3},
 year={2023},
 }
 
-@article{Flinkow_2023,
+@techreport{doty2023harvesting,
+      title={Harvesting Brownian Motion: Zero Energy Computational Sampling}, 
+      author={David Doty and Niels Kornerup and Austin Luchsinger and Leo Orshansky and David Soloveichik and Damien Woods},
+      year={2023},
+      school={Maynooth University, Ireland},
+      eprint={2309.06957},
+      doi={10.48550/arXiv.2309.06957},
+      url={https://doi.org/10.48550/arXiv.2309.06957},
+      abstract={The key factor currently limiting the advancement of computational power of electronic computation is no longer the manufacturing density and speed of components, but rather their high energy consumption. While it has been widely argued that reversible computation can escape the fundamental Landauer limit of kBTln(2) Joules per irreversible computational step, there is disagreement around whether indefinitely reusable computation can be achieved without energy dissipation. Here we focus on the relatively simpler context of sampling problems, which take no input, so avoids modeling the energy costs of the observer perturbing the machine to change its input. Given an algorithm A for generating samples from a distribution, we desire a device that can perpetually generate samples from that distribution driven entirely by Brownian motion. We show that such a device can efficiently execute algorithm A in the sense that we must wait only O(time(A)2) between samples. We consider two output models: Las Vegas, which samples from the exact probability distribution every 4 tries in expectation, and Monte Carlo, in which every try succeeds but the distribution is only approximated. We base our model on continuous-time random walks over the state space graph of a general computational machine, with a space-bounded Turing machine as one instantiation. The problem of sampling a computationally complex probability distribution with no energy dissipation informs our understanding of the energy requirements of computation, and may lead to more energy efficient randomized algorithms.},
+      archivePrefix={arXiv},
+      primaryClass={cs.DS}
+}@article{Flinkow_2023,
    title={Comparing Differentiable Logics for Learning Systems: A Research Preview},
    volume={395},
    ISSN={2075-2180},
@@ -416,6 +480,19 @@ month = {Jan},}@ARTICLE{9963761,
   pages={8-15},
   keywords={Vehicular and wireless technologies;Protocols;Context awareness;Simulation;Information-centric networking;Vehicular ad hoc networks;Information sharing},
   doi={10.1109/MCOMSTD.0002.2200008}}
+@INPROCEEDINGS{10448717,
+  author={Yuan, Xiaxin and Du, Jiacheng and Yao, Yilin and Xu, Jiasen and Wu, Gaoyuan and Culligan, Natalie and Bierig, Ralf and Bi, Ting},
+  booktitle={2023 IEEE Smart World Congress (SWC)}, 
+  title={Digital Twins: A Vehicle Platooning Simulation System for VR}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={1-6},
+  abstract={This system mainly studies the development and application of autonomous driving simulation platform based on virtual reality (VR) technology. A digital twin vehicle platooning simulation system (DTVPSS) is proposed. Digital twin and vehicle platooning (VP) are both concepts that have been proposed. However, developing a complete virtual platform for vehicle queues, with interactive control between the virtual and physical worlds, has rarely been explored. In order to solve this problem, This paper digital twin technology is innovative applied to vehicle queue simulation platform. Digital twin and VR technology build highly simulated and reliable systems. The innovation point of the system is to realize the following of vehicles and form the autonomous driving of car formation by considering the collaborative planning technical scheme between vehicles. The system makes the VP no longer only controlled by hardware, increases the software operability of the VP, and provides a more real, convenient and economical virtual simulation platform with low delay.},
+  keywords={Technological innovation;Virtual reality;Software;Digital twins;Software reliability;Planning;Autonomous vehicles;digital twin;vehicle platooning;driving;virtual reality technology},
+  doi={10.1109/SWC57546.2023.10448717},
+  ISSN={},
+  month={Aug},}
 @article{Inkarbekov2023,
 title = {Visualization of AI Systems in Virtual Reality: A Comprehensive Review},
 journal = {International Journal of Advanced Computer Science and Applications},
@@ -592,7 +669,31 @@ publisher  ="The Royal Society of Chemistry",
 doi  ="10.1039/D3AY01131C",
 url  ="http://dx.doi.org/10.1039/D3AY01131C",
 abstract  ="Broadband coherent anti-Stokes Raman scattering (BCARS) is capable of producing high-quality Raman spectra spanning broad bandwidths{,} 400–4000 cm−1{,} with millisecond acquisition times. Raw BCARS spectra{,} however{,} are a coherent combination of vibrationally resonant (Raman) and non-resonant (electronic) components that may challenge or degrade chemical analyses. Recently{,} we demonstrated a deep convolutional autoencoder network{,} trained on pairs of simulated BCARS-Raman datasets{,} which could retrieve the Raman signal with high quality under ideal conditions. In this work{,} we present a new computational system that incorporates experimental measurements of the laser system spectral and temporal properties{,} combined with simulated susceptibilities. Thus{,} the neural network learns the mapping between the susceptibility and the measured response for a specific BCARS system. The network is tested on simulated and measured experimental results taken with our BCARS system."}
-@article{YU2023107764,
+@article{FAN2022103711,
+title = {Eye movement control in reading Chinese: A matter of strength of character?},
+journal = {Acta Psychologica},
+volume = {230},
+pages = {103711},
+year = {2022},
+issn = {0001-6918},
+url = {https://doi.org/10.1016/j.actpsy.2022.103711},
+doi = {10.1016/j.actpsy.2022.103711},
+author = {Xi Fan and Ronan G. Reilly},
+keywords = {Eye movements, Reading, Reading ability, Reading Chinese, Saccade targeting},
+abstract = {This paper explores the processes underlying eye movement control in Chinese reading among a population of young 4th and 5th grade readers. Various proposals to explain the underlying mechanisms involved in eye movement control are examined and the paper concludes that the most likely account is of a two-factor process whereby the character is the main driver for longer saccades and that the word plays a role in shorter ones. A computational model is proposed to provide an integrated account of the dynamic interaction of these two factors.}
+}@article{WANG202331,
+title = {The effect of benevolent leadership on safety behavior: A moderated mediation model},
+journal = {Journal of Safety Research},
+volume = {85},
+pages = {31-41},
+year = {2023},
+issn = {0022-4375},
+doi = {10.1016/j.jsr.2023.01.004},
+url = {https://doi.org/10.1016/j.jsr.2023.01.004},
+author = {Dawei Wang and Zhenzhen Sun and Zhaobiao Zong and Wenxu Mao and Li Wang and Yuchen Sun and Jun Zhang and Phil Maguire and Yixin Hu},
+keywords = {Employee behavior, Subordinates' moqi, Safety climate, Implicit followership theory, Implicit leadership theory},
+abstract = {Introduction: While high quality leadership is of great importance for enhancing safety behavior in the workplace, there has been a lack of research on how benevolent leadership influences such behavior. Subordinates’ moqi (i.e., their unspoken understanding of the work expectations, intentions, and requirements of their superiors) and safety climate were introduced to examine this relationship. Method: Based on implicit followership theory, this study explores the relationship between benevolent (well meaning, kindly) leadership and employees' safety behavior, as well as the mediating role of subordinates' moqi and the moderating role of safety climate. 608 employees of a petroleum company in China were randomly selected as participants, and the data were collected in two stages. Results: The results showed that: (1) Benevolent leadership is positively correlated with employees' safety behavior. (2) Subordinates' moqi mediates between benevolent leadership and employees' safety behavior. (3) Safety climate moderates the mediating role of subordinates' moqi between benevolent leadership and employees' safety behavior. (4) The positive effect of subordinates' moqi on employees' safety behavior is enhanced under a positive safety climate. Conclusions: Benevolent leadership is an effective leadership style that enhances employees’ safety behaviors by promoting a moqi state between supervisors and subordinates. The invisible environmental climate, in particular, the safety climate, should be a key focus in the promotion of safety behaviors. Practical Applications: This study further broadens the research perspective of employee safety behavior from the perspective of implicit followership theory. It also provides practical guidance for improving employee safety behavior, namely selecting and cultivating benevolent leaders, enhancing subordinates' moqi, and actively fostering a positive organizational safety climate.}
+}@article{YU2023107764,
 title = {A new spin on Ashkin's laser trapping forces in the ray optics regime},
 journal = {Optics and Lasers in Engineering},
 volume = {170},

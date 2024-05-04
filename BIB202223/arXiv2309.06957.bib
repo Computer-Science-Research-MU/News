@@ -1,0 +1,12 @@
+@techreport{doty2023harvesting,
+      title={Harvesting Brownian Motion: Zero Energy Computational Sampling}, 
+      author={David Doty and Niels Kornerup and Austin Luchsinger and Leo Orshansky and David Soloveichik and Damien Woods},
+      year={2023},
+      school={Maynooth University, Ireland},
+      eprint={2309.06957},
+      doi={10.48550/arXiv.2309.06957},
+      url={https://doi.org/10.48550/arXiv.2309.06957},
+      abstract={The key factor currently limiting the advancement of computational power of electronic computation is no longer the manufacturing density and speed of components, but rather their high energy consumption. While it has been widely argued that reversible computation can escape the fundamental Landauer limit of kBTln(2) Joules per irreversible computational step, there is disagreement around whether indefinitely reusable computation can be achieved without energy dissipation. Here we focus on the relatively simpler context of sampling problems, which take no input, so avoids modeling the energy costs of the observer perturbing the machine to change its input. Given an algorithm A for generating samples from a distribution, we desire a device that can perpetually generate samples from that distribution driven entirely by Brownian motion. We show that such a device can efficiently execute algorithm A in the sense that we must wait only O(time(A)2) between samples. We consider two output models: Las Vegas, which samples from the exact probability distribution every 4 tries in expectation, and Monte Carlo, in which every try succeeds but the distribution is only approximated. We base our model on continuous-time random walks over the state space graph of a general computational machine, with a space-bounded Turing machine as one instantiation. The problem of sampling a computationally complex probability distribution with no energy dissipation informs our understanding of the energy requirements of computation, and may lead to more energy efficient randomized algorithms.},
+      archivePrefix={arXiv},
+      primaryClass={cs.DS}
+}
