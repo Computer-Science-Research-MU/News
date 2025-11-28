@@ -2,11 +2,16 @@
 
 body {
     line-height: 1;
-    padding: 1rem;
+    padding: 5rem;
+    
 }
 
 
-
+p,ul,li {
+    line-height: 1.6;
+    width: 80%;
+    
+}
 
 .spacer {
     height: 3rem;
